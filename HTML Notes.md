@@ -44,3 +44,37 @@
       ```
   
 # HTML Lists
+* Ordered lists
+  * ```html
+       <ol>
+         <li>Red</li>
+         <li>Orange</li>
+         <li>Yellow
+       </ol>
+       ```
+* Unordered lists
+  * ```html
+       <ul>
+         <li>Red</li>
+         <li>Orange</li>
+         <li>Yellow
+       </ul>
+       ```
+ * Nested list
+   * ```html
+     <ol>
+      <li>Red</li>
+      <li>Orange</li>
+      <li>Yellow
+       <ul>
+        <li>Sunflower</li>
+        <li>Banana
+         <ol>
+          <li>Frozen Banana</li>
+          <li>Non-Frozen Banana</li>
+         </ol>
+        </li>
+       </ul>
+      </li>
+     </ol>
+     ```
