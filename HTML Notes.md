@@ -78,3 +78,17 @@
       </li>
      </ol>
      ```
+## HTML Attributes
+* Image    
+  * Shows the image of the link (link can be an url)
+    * ```html
+      <img src = "dog.jpg">
+      ```
+* Links   
+  * Go to the link 
+    * ```html
+      <a href="www.google.com">Click me to go to Google</a>
+      ```
+
+
+      
