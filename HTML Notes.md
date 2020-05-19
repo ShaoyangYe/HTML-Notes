@@ -90,5 +90,43 @@
       <a href="www.google.com">Click me to go to Google</a>
       ```
 
+## Tables
 
-      
+<!--  Name  Age
+============
+Rusty   2
+Wyatt   13
+-->
+
+Table sample (Without styling无网格)（添加网格将第一行替换为```<table border="1">```）
+* ```html
+       <table>
+         <thead>
+            <tr>
+              <th>Name</th> 	
+              <th>Age</th> 	
+              <th>Breed</th> 	
+            </tr>
+         </thead>
+         <tbody>
+           <tr>
+             <td>Rusty</td>
+             <td>2</td>
+             <td>Mutt</td>
+           </tr>
+           <tr>
+              <td>Wyatt</td>
+              <td>13</td>
+              <td>Golden</td>
+           </tr>
+         </tbody>
+       </table>
+    ```
+
+### Pokemon table sample
+[Pokemon table sample](https://github.com/ShaoyangYe/Web-Development-Notes/blob/master/HTML%20Files/pokemonSolution.html)
+
+## Command+Shift+D => repeat block of code.
+## Command and choose mutiple images and set size for all chosen images 
+* like ```<img width="50" src="" >``` 
+
