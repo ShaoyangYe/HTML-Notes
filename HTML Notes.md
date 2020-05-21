@@ -78,7 +78,7 @@
       </li>
      </ol>
      ```
-## HTML Attributes
+# HTML Attributes
 * Image    
   * Shows the image of the link (link can be an url)
     * ```html
@@ -90,7 +90,7 @@
       <a href="www.google.com">Click me to go to Google</a>
       ```
 
-## Tables
+# Tables
 
 <!--  Name  Age
 ============
@@ -130,3 +130,48 @@ Table sample (Without styling无网格)（添加网格将第一行替换为```<t
 ## Command and choose mutiple images and set size for all chosen images 
 * like ```<img width="50" src="" >``` 
 
+# Form, Label, Simple Validations 
+* Use the ```<form></form>``` tag (Until we cover Back End JS, our forms won't actually do anything)
+  * ```html
+    <form action="/my-form-submitting-page" method="post">
+    <!-- All our inputs will go in here -->
+    </form>
+    ```
+  * action - the URL to send form data to
+  * method - the type of HTTP request 
+* Use the ```<input>``` tag
+  * ```html
+    
+    <input type="text">
+
+    <input type="date">
+
+    <input type="color">
+
+    <input type="file">
+
+    <input type="checkbox">
+    ```
+* Use the ```<label></label>``` tag
+  * ```html
+    <form action="/sign-in-url" method="post">
+        <!-- Using "for" and  "id" attributes -->
+        <label for="username">Username:</label>
+        <input id="username" type="text">
+        <label for="password">Password:</label>
+        <input id="password" type="password">
+        <button>Login</button>
+    </form>
+    ```
+* Write Simple Validations
+  * ```html
+    <form action="/sign-in-url" method="post">
+      <label for="email">Email:</label>
+      <input id="email" type="email" required>
+      <label for="password">Password:</label>
+      <input id="password" type="password" required>
+      <button>Login</button>
+    </form>
+    ```
+  * The 'required' attribute validates that an input is not empty
+  * There are also type validations.  Try changing "type" from "text" to "email"
