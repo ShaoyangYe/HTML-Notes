@@ -175,3 +175,7 @@ Table sample (Without styling无网格)（添加网格将第一行替换为```<t
     ```
   * The 'required' attribute validates that an input is not empty
   * There are also type validations.  Try changing "type" from "text" to "email"
+
+# Complex Form Sample
+![Complex Form Sample](https://github.com/ShaoyangYe/Web-Development-Notes/blob/master/HTML%20Files/%E6%88%AA%E5%B1%8F2020-05-21%20%E4%B8%8B%E5%8D%882.57.14.png)
+[Complex Form Sample Solution](https://github.com/ShaoyangYe/Web-Development-Notes/blob/master/HTML%20Files/formSolution.html)
